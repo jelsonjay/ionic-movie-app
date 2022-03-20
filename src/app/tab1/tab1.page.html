@@ -8,23 +8,60 @@
   <ion-searchbar placeholder="search movie..."></ion-searchbar>
 
   <ion-list>
-    <ion-item lines="full">
-      <ion-thumbnail slot="start">
-        <img
-          src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wdE6ewaKZHr62bLqCn7A2DiGShm.jpg"
-        />
-      </ion-thumbnail>
-      <ion-label>
-        <div>
-          <h1>Red Notice (2021)</h1>
-          <p>05/11/2021 (US) - 1h 58m</p>
-          <p>Action, Comedy, Crime, Thriller</p>
-        </div>
-      </ion-label>
+    <ion-item-sliding>
+      <ion-item lines="full">
+        <ion-thumbnail slot="start">
+          <img
+            src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wdE6ewaKZHr62bLqCn7A2DiGShm.jpg"
+            alt="movie-avatar"
+          />
+        </ion-thumbnail>
+        <ion-label>
+          <div>
+            <h1>Red Notice (2021)</h1>
+            <p>05/11/2021 (US) - 1h 58m</p>
+            <p>Action, Comedy, Crime, Thriller</p>
+          </div>
+        </ion-label>
 
-      <ion-chip color="warning" outline="">
-        <ion-label class="ion-text-wrap"> 68% </ion-label>
-      </ion-chip>
-    </ion-item>
+        <ion-chip color="warning" outline>
+          <ion-label class="ion-text-wrap"> 68% </ion-label>
+        </ion-chip>
+      </ion-item>
+
+      <ion-item-options side="end">
+        <ion-item-option>
+          <ion-icon slot="icon-only" name="star"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item lines="full">
+        <ion-thumbnail slot="start">
+          <img
+            src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg"
+            alt="movie-avatar"
+          />
+        </ion-thumbnail>
+        <ion-label>
+          <div>
+            <h1>Sing 2 (2021)</h1>
+            <p>28/01/2022 (GB) - 1h 50m</p>
+            <p>Animation, Comedy, Family, Music</p>
+          </div>
+        </ion-label>
+
+        <ion-chip color="success" outline>
+          <ion-label class="ion-text-wrap"> 82% </ion-label>
+        </ion-chip>
+      </ion-item>
+
+      <ion-item-options side="end">
+        <ion-item-option>
+          <ion-icon slot="icon-only" name="star"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
   </ion-list>
 </ion-content>
